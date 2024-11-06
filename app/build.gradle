@@ -1,0 +1,54 @@
+plugins {
+    alias(libs.plugins.android.application)  // Verify the plugin alias in your libs.versions.toml file
+    id 'com.google.gms.google-services'  // Google Services plugin
+}
+
+android {
+    namespace 'com.example.muebleria'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.muebleria"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    // Firebase dependencies
+    implementation platform('com.google.firebase:firebase-bom:33.5.1')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.firebase:firebase-database'
+
+    // Google services for authentication
+    implementation 'com.google.android.gms:play-services-auth:20.3.0'
+
+    // Additional dependencies
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.6.1'
+    implementation libs.volley
+
+    // Testing dependencies
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+}
+
+apply plugin: 'com.google.gms.google-services'  // Ensure this is at the end

@@ -1,0 +1,9 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Muebleria" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:statusBarColor">@color/lavender_light</item>
+    </style>
+
+    <style name="Theme.Muebleria" parent="Base.Theme.Muebleria" />
+</resources>

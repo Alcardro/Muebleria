@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "283202347479",
+    "project_id": "alejandro-app-89039",
+    "storage_bucket": "alejandro-app-89039.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283202347479:android:a42419d2b10b16d4f66b92",
+        "android_client_info": {
+          "package_name": "com.example.muebleria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283202347479-tksa02nq9aud8mkr8ub01sm1dgrllfar.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.muebleria",
+            "certificate_hash": "be925eff7ae7d181bcabf034e8b4aa17629fc58e"
+          }
+        },
+        {
+          "client_id": "283202347479-c1796cbhopo1vaqd22elb03p2b0b0bfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT4QiX4YEm1t46Mtc5hOxZo4P1tXkYi58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283202347479-c1796cbhopo1vaqd22elb03p2b0b0bfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-72dp">
+
+        <TextView
+            android:id="@+id/thank_you_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="¡Gracias por completar la encuesta!"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+
+            android:textStyle="bold"/>
+
+        <!-- Resumen de respuestas -->
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold">
+
+            <TextView
+                android:id="@+id/summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Resumen de tus respuestas:"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/response_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="Nombre: " /> <!-- Aquí puedes concatenar el nombre del usuario -->
+
+            <TextView
+                android:id="@+id/response_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="Edad: " /> <!-- Aquí puedes concatenar la edad del usuario -->
+
+            <TextView
+                android:id="@+id/response_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="Teléfono: " /> <!-- Aquí puedes concatenar el teléfono del usuario -->
+
+            <TextView
+                android:id="@+id/response_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="Correo: " /> <!-- Aquí puedes concatenar el correo del usuario -->
+
+            <!-- Agrega más TextViews según las preguntas que tengas -->
+
+        </LinearLayout>
+
+
+
+        <!-- Aquí puedes añadir los TextViews para cada respuesta -->
+
+        <Button
+            android:id="@+id/send_survey_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/material_dynamic_neutral_variant10"
+            android:text="Enviar Encuesta" />
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/material_dynamic_neutral_variant10"
+            android:layout_marginTop="8dp"
+            android:text="Cancelar" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Muebleria</string>
+    <string name="hint_name">Ingrese su nombre</string>
+    <string name="button_start_survey">Iniciar Encuesta</string>
+    <string name="greeting">Hello Andrea!</string>
+    <string name="image_desc">Imagen de fondo de pantalla completa una mesa con dos sillas</string>
+    <string name="nombre_empresa">MELIMAX</string>
+    <string name="boton_encuesta">Empezar Encuesta</string>
+    <string name="email_input">Email</string>
+    <string name="nombre_input">Nombre</string>
+    <string name="enviar_input">Enviar</string>
+    <string name="ingresa_datos">Ingrese sus Datos</string>
+    <string name="encuesta">Encuesta</string>
+    <string name="avanzar">Siguiente</string>
+    <string name="mensaje">"Gracias por ser parte de nuestra familia. ¿Cómo fue tu experiencia?"</string>
+    <string name="titulos_datos_personales">Queremos conocerte mejor</string>
+    <string name="nombre_completo">Nombre Completo</string>
+    <string name="correo">Correo Electronico</string>
+    <string name="telefono">Numero de Teléfono</string>
+    <string name="Edad">Edad</string>
+    <string name="pregunta_uno">1.¿Cómo calificaría la calidad de los productos que ha comprado? (Escala del 1 al 5)</string>
+    <string name="pregunta_dos">2.¿Qué tan satisfecho está con el tiempo de entrega de su pedido? (Escala del 1 al 5)</string>
+    <string name="pregunta_tres">3.¿El personal de atención al cliente fue amable y servicial? (Escala del 1 al 5)</string>
+    <string name="pregunta_cuatro">4.¿Los precios de los productos son justos en relación con la calidad? (Escala del 1 al 5)</string>
+    <string name="pregunta_cinco">5.¿Qué tan fácil fue navegar y encontrar productos en nuestra tienda? (Escala del 1 al 5)</string>
+    <string name="pregunta_seis">6.¿Qué tan satisfecho está con la variedad de productos que ofrecemos? (Escala del 1 al 5)</string>
+    <string name="pregunta_siete">7.¿Volvería a comprar en nuestra mueblería? (Sí/No)</string>
+    <string name="pregunta_ocho">8.¿Cómo calificaría la experiencia general de compra? (Escala del 1 al 5)</string>
+    <string name="pregunta_nueve">9.¿Recomendaría nuestra mueblería a sus amigos o familiares? (Escala del 1 al 5)</string>
+    <string name="pregunta_diez">10.¿Qué mejoras sugeriría para mejorar su experiencia de compra en nuestra tienda? (Pregunta abierta)</string>
+    <string name="enviar">Enviar</string>
+
+
+    <string name="title_home">Home</string>
+    <string name="title_settings">Setting</string>
+    <string name="Login">Login</string>
+    <string name="title_logout">Salir</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="guardar">Guardar</string>
+
+    <string name="usuario">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="logeo">Login</string>
+    <string name="ingresar">Iniciar Sesión</string>
+
+</resources>

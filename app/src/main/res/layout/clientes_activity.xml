@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!-- Cuadro de texto para ingresar el nombre a buscar -->
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:hint="Ingrese nombre a buscar"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp"
+    android:padding="16dp"
+    android:textSize="16sp"
+    android:minHeight="48dp"/>
+
+    <!-- Botón para realizar la búsqueda -->
+    <Button
+        android:id="@+id/buttonBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        app:layout_constraintTop_toBottomOf="@id/editTextNombre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Cuadro de texto para mostrar el primer parámetro -->
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextParametro1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Parametro 1"
+        app:layout_constraintTop_toBottomOf="@id/buttonBuscar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+    android:focusable="false"
+    android:clickable="false"
+    android:minHeight="48dp"
+    android:textSize="16sp"/>
+
+    <!-- Cuadro de texto para mostrar el segundo parámetro -->
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextParametro2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Parametro 2"
+        app:layout_constraintTop_toBottomOf="@id/editTextParametro1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+
+        android:focusable="false"
+        android:clickable="false"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:minHeight="48dp"/>
+
+    <!-- Cuadro de texto para mostrar el tercer parámetro -->
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextParametro3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Parametro 3"
+        app:layout_constraintTop_toBottomOf="@id/editTextParametro2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:focusable="false"
+        android:clickable="false"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:minHeight="48dp"/>
+
+    <!-- Cuadro de texto para mostrar el cuarto parámetro -->
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextParametro4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Parametro 4"
+        app:layout_constraintTop_toBottomOf="@id/editTextParametro3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:focusable="false"
+        android:clickable="false"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:minHeight="48dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
